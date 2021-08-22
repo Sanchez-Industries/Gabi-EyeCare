@@ -1,0 +1,6 @@
+[Unit]
+Description= For you, I love you so much ! <3
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/gabi-eyecare

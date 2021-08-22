@@ -1,0 +1,10 @@
+[Unit]
+Description=take care of your eyes, that run one minute after boot
+
+[Timer]
+# Time to wait after booting before activation
+OnBootSec=1min
+Unit=gabi-eyecare.service
+
+[Install]
+WantedBy=default.target

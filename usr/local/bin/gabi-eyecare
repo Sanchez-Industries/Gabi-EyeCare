@@ -1,0 +1,2 @@
+#!/bin/bash
+gammastep -b 0.7:0.3 -l $LAT:$LON -m wayland -o -P -t 5000:2500
