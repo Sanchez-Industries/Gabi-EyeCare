@@ -11,9 +11,15 @@ gammastep config, good eyecare by blue light filter, for you sure.
 
 ------
 
-**Dependency's include with that:**
+### **Dependency's include with that:**
 
-- gammastep ***(installing by `install.sh` script with pacman packages manager)***
+***(installing by `install.sh` script with pacman packages manager)***:
+
+- gammastep 
+
+- python3
+
+- nano
 
 ------
 

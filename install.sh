@@ -3,8 +3,8 @@
 #check updates with pacman
 sudo pacman -Syu
 
-#install dependences (required packages)
-sudo pacman -S gammastep
+#install dependences (required packages) + python3 to be sure system have python3 installed...
+sudo pacman -S gammastep python3 nano
 
 #copy the configurations to the system disk
 sudo cp systemd-configs/service/gabi-eyecare.service /etc/systemd/user/gabi-eyecare.service
@@ -20,6 +20,7 @@ sudo chown root:root /usr/local/bin/gabi-eyecare
 sudo chmod a+x /usr/local/bin/gabi-eyecare
 
 #set and export the ENV_VARS (required for this)
+sudo python3 scripts/custom-install-scripts/ENV_VARS-setter-script.py
 
 #enable and start this addons
 systemctl enable --now --user gabi-eyecare.timer
