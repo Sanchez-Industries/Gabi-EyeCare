@@ -1,4 +1,7 @@
 # Gabi-EyeCare v1
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7e2705b5072b4d5e85b90b34b4a4fa54)](https://app.codacy.com/gh/Sanchez-Industries/Gabi-EyeCare?utm_source=github.com&utm_medium=referral&utm_content=Sanchez-Industries/Gabi-EyeCare&utm_campaign=Badge_Grade_Settings)
+
 gammastep config, good eyecare by blue light filter, for you sure.
 
 ### Requirement
